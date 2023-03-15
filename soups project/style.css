@@ -1,0 +1,137 @@
+/*
+  Sebastian Hunt
+  INFO 654-03 Spring 2023
+  Prof. Rachel Daniell
+  Pratt Institute
+*/
+
+body {
+    background-color: #f2b705;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-self: center;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: #d95d41;
+}
+
+h3, h4 {
+    color: #242426;
+}
+
+a:link {
+    color: #242426;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d95d41;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #d95d41;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 24px;
+}
+
+h1, h2 {
+    font-family: 'Rammetto One', cursive;
+}
+
+p, h3, h4, ul, ol {
+    font-family: 'Merriweather', serif;
+    line-height: 36px; 
+}
+
+li {
+    margin-bottom: 24px;
+}
+
+.contents {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    justify-content: flex-start;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+ul, ol {
+    margin-left: -10px;
+    line-height: 32px;
+}
+
+.region {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.recipeHeader, .recipe, .ingredients, .recipeDesc {
+    margin: 24px;
+}
+
+.recipeDesc {
+    padding-left: 24px;
+}
+
+ .recipeHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    margin: 24px;
+    background-color: #d95d41;
+    border-radius: 16px;
+}
+
+.recipeConts {
+    display: flex;
+    justify-content: left;
+}
+
+.recipeImages {
+    display: flex;
+    border-radius: 16px;
+    max-width: 50%;
+    max-height: 600px;
+}
+
+.ingredients {
+    background-color: white;
+    display: flex;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: column;
+    width: auto;
+    border-radius: 16px;
+}
+
+.recipe {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
