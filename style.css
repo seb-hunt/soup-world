@@ -20,7 +20,7 @@ body {
     justify-content: center;
 }
 
-h2 {
+h1, h2 {
     color: #d95d41;
 }
 
@@ -46,7 +46,6 @@ a:focus {
 h1 {
     font-size: 60px;
     line-height: 24px;
-    color: #242426;
 }
 
 h1, h2 {
