@@ -5,13 +5,15 @@
   Pratt Institute
 */
 
+/*Website background color and padding settings*/
 body {
     background-color: #f2b705;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
     align-self: center;
 }
 
+/*Page title arrangement*/
 .title {
     display: flex;
     flex-wrap: wrap;
@@ -20,47 +22,51 @@ body {
     justify-content: center;
 }
 
+/*Page, ingredient, and recipe title color*/
 h1, h2 {
     color: #d95d41;
 }
 
+/*Page, ingredient, and recipe body copy color*/
 h3, h4 {
     color: #242426;
 }
 
+/*Unvisited link*/
 a:link {
     color: #242426;
     text-decoration: none;
 }
 
+/*Hovered link*/
 a:hover {
     color: #d95d41;
     text-decoration: none;
 }
 
-a:focus {
-    color: #d95d41;
-    text-decoration: none;
-}
-
+/*Title size control*/
 h1 {
     font-size: 60px;
     line-height: 24px;
 }
 
+/*Title font settings*/
 h1, h2 {
     font-family: 'Rammetto One', cursive;
 }
 
+/*Body font settings*/
 p, h3, h4, ul, ol {
     font-family: 'Merriweather', serif;
     line-height: 36px; 
 }
 
+/*List spacing control*/
 li {
     margin-bottom: 24px;
 }
 
+/*Ingredients and recipe container settings*/
 .contents {
     background-color: #f2f2f2;
     display: flex;
@@ -71,41 +77,52 @@ li {
     border-radius: 16px;
 }
 
+/*List spacing control*/
 ul, ol {
     margin-left: -10px;
     line-height: 32px;
 }
 
+/*Home page recipe list spacing control*/
 .region {
     display: flex;
     flex-direction: column;
     margin: 24px;
 }
 
+/*Soup page content margin setting*/
 .recipeHeader, .recipe, .ingredients, .recipeDesc {
     margin: 24px;
 }
 
+/*Description card copy spacing setting*/
 .recipeDesc {
     padding-left: 24px;
 }
 
- .recipeHeader {
+/*Soup page header display settings*/
+.recipeHeader {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 24px;
-    margin: 24px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
     background-color: #d95d41;
     border-radius: 16px;
     max-width: fit-content;
 }
 
+/*Ingredients and recipe section justification*/
 .recipeConts {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    margin-bottom: 48px;
 }
 
+/*Soup image sizing control settings*/
 .recipeImages {
     display: flex;
     border-radius: 16px;
@@ -113,17 +130,20 @@ ul, ol {
     max-height: 600px;
 }
 
-.ingredients {
+/*Ingredient container settings*/
+#ingredients {
     background-color: white;
     display: flex;
     padding-right: 24px;
     padding-left: 24px;
+    margin-right: 48px;
     flex-direction: column;
     width: auto;
     border-radius: 16px;
 }
 
-.recipe {
+/*Recipe container settings*/
+#recipe {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -132,6 +152,7 @@ ul, ol {
     padding-left: 24px;
 }
 
+/*Footer settings*/
 footer {
     display: flex;
     justify-content: center;
