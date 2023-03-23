@@ -145,7 +145,7 @@ ul, ol {
 /*Recipe container settings*/
 #recipe {
     background-color: white;
-    width: max-content;
+    position: absolute;
     display: flex;
     flex-direction: column;
     border-radius: 16px;
